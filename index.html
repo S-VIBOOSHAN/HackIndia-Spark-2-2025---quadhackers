@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- header section starts -->
+    <header class="header">
+        <a href="#home" class="logo"><i class="fas fa-shopping-basket"></i>NFT Marketplace with Creator-Owned Smart Contracts</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#features">features</a>
+            <a href="#products">products</a>
+            <a href="#categories">categories</a>
+            <a href="#review">reviews</a>
+            <a href="#blogs">blogs </a>
+            <a href="#contact">Contact us </a>
+        </nav>
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="Search here.." autocomplete="off">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="./img/sixer image of dhoni.jpg" alt="">
+                <div class="content">
+                    <h3>sixer image of dhoni </h3>
+                    <span class="price">$450.99/-</span>
+                    <span class="quantity">qty: 2.</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="./img/gold.jpg" alt="">
+                <div class="content">
+                    <h3>gold</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="quantity">qty: 2.</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="./img/cat image.jpg" alt="">
+                <div class="content">
+                    <h3>catimage</h3>
+                    <span class="price">$40.99/-</span>
+                    <span class="quantity">qty: 20.00</span>
+                </div>
+            </div>
+            <div class="total">total : $590000.69/-</div>
+            <a href="#" class="btn">checkout</a>
+        </div>
+        <form action="" class="login-form"id="login">
+            <h3>login now</h3>
+            <input type="email" placeholder="Enter email.." class="box">
+            <input type="password" placeholder="Enter password.." class="box">
+            <p>forgate your password<a href="#"> click here</a></p>
+            <p>do'nt have an account<a href="#"id="registration"> create now</a></p>
+            <input type="submit" value="Login now" class="btn">
+        </form>
+        <form action="reg-form" class="registration-form"id="reg-form">
+            <h3>Register now</h3>
+            <input type="text"name="name" placeholder="Enter Name.."class="box">
+            <input type="email"name="email" placeholder="Enter email.." class="box">
+            <input type="number" name="phone" placeholder="Enter phone.." class="box">
+            <input type="password" name="password"placeholder="Enter password.." class="box">
+            <input type="password"name="cpassword" placeholder="confirm password.." class="box">
+            <p>if already account. <a  href="#"id="again-login">Go back</a></p>
+            <input type="submit" value="Register" class="btn">
+        </form>
+
+    </header>
+    <!-- header-section end -->
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>fresh and <span>Marketplace</span> products for you</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorem voluptates eius aliquam aliquid aut sint distinctio rerum magni. Doloribus.</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </section>
+<!-- features -->
+    <section class="features" id="features">
+        <h1 class="heading">Our<span>features</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="img/gro1.jpg" alt="">
+                <h3>all Marketplace for selling</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, recusandae.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="img/delevery.png" alt="">
+                <h3>free delevery</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, recusandae.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="img/payment.webp" alt="">
+                <h3>easy payments</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, recusandae.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+    </section>
+    <!-- home section end -->
+    <!-- products section starts -->
+    <section class="products" id="products">
+        <h1 class="heading">Our <span>products</span></h1>
+        <div class="swiper products-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="./img/harry potter.jpg" alt="">
+                    <h3>harry potter</h3>
+                    <div class="price">$4.99/- - 10.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./img/All Souls Trilogy.jpg" alt="">
+                    <h3>All Souls Trilogy book</h3>
+                    <div class="price">$40.99/- - 50.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./img/dimond jwellery.jpg" alt="">
+                    <h3>dimond jwellery</h3>
+                    <div class="price">$400.99/- - 100000.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                    <img src="./img/bitcoin.jpg" alt="">
+                    <h3>bitcoin</h3>
+                    <div class="price">$4.99/- - 10.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div><div class="swiper-slide box">
+                    <img src="./img/old oil painting.jpg" alt="">
+                    <h3>fresh old oil painting</h3>
+                    <div class="price">$56.99/- - 100.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div><div class="swiper-slide box">
+                    <img src="./img/cat image.jpg" alt="">
+                    <h3>cat paining luxuery</h3>
+                    <div class="price">$40.99/- - 100.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                  <img src="./img/game pass.jpg" alt="">
+                  <h3>game pass</h3>
+                  <div class="price">$4.99/- - 10.99/- </div>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">add to cart</a>
+              </div>
+            </div>
+        </div>
+        <div class="swiper products-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="./img/Mona Lisa by Leonardo da Vinci.jpg" alt="">
+                    <h3>Mona Lisa by Leonardo da Vinci painting</h3>
+                    <div class="price">$4.99/- - 10.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+  
+                <div class="swiper-slide box">
+                    <img src="./img/NITA PROSE.jpg" alt="">
+                    <h3>NITA PROSE book</h3>
+                    <div class="price">$40.99/- - 100.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                  <img src="./img/historical mystery.jpg" alt="">
+                  <h3>historical mystery picture</picture></h3>
+                  <div class="price">$63.99/- - 100.99/- </div>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">add to cart</a>
+              </div>
+            </div>
+        </div>        <div class="swiper products-slider">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide box">
+                  <img src="./img/cat image.jpg" alt="">
+                  <h3>cat paining luxuery</h3>
+                  <div class="price">$4.99/- - 105.99/- </div>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">add to cart</a>
+              </div>
+
+              <div class="swiper-slide box">
+                  <img src="./img/dimond jwellery.jpg" alt="">
+                  <h3>dimond jwellery</h3>
+                  <div class="price">$400.99/- - 1000000.99/- </div>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">add to cart</a>
+              </div>
+              <div class="swiper-slide box">
+                <img src="./img/dimond jwellery.jpg" alt="">
+                <h3>dimond jwellery</h3>
+                <div class="price">$400.99/- - 1000000.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div><div class="swiper-slide box">
+                <img src="./img/bitcoin.jpg" alt="">
+                <h3>bitcoin</h3>
+                <div class="price">$400.99/- - 1000000.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+              <div class="swiper-slide box">
+                <img src="./img/the cyclogy of money.jpg" alt="">
+                <h3>the cyclogy of money</h3>
+                <div class="price">$460.99/- - 504.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+          </div>
+      </div>
+
+       <div class="swiper products-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="./img/car.jpg" alt="">
+
+                    <h3>expensive sports car</h3>
+                    <div class="price">$4000.99/- - 1000000.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./img/lion.jpg" alt="">
+                    <h3>lion paining</h3>
+                    <div class="price">$4.99/- - 10.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./img/the cyclogy of money.jpg" alt="">
+                    <h3>the cyclogy of money</h3>
+                    <div class="price">$5.99/- - 10.99/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <div class="swiper-slide box">
+                  <img src="./img/car.jpg" alt="">
+                  <h3>sports car</h3>
+                  <div class="price">$4000.99/- - 10000000.99/- </div>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <a href="#" class="btn">add to cart</a>
+              </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- products section ends -->
+    <!-- categories section starts -->
+    <section class="categories" id="categories">
+        <h1 class="heading">product <span>categories</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./img/gold.jpg" alt="">
+                <h3>gold</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">Shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="./img/cat image.jpg" alt="">
+                <h3>cat painting</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">Shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="./img/Mona Lisa by Leonardo da Vinci.jpg" alt="">
+                <h3>Mona Lisa by Leonardo da Vinci</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">Shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="./img/dimond jwellery.jpg" alt="">
+                <h3>dimond jwellery</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">Shop now</a>
+            </div>
+        </div>
+    </section>
+    <!-- categories section ends -->
+    <!-- review section start -->
+    <div class="review" id="review">
+        <h1 class="heading"><span>Customer's </span>review</h1>
+            <div class="swiper review-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide box">
+                        <img src="./img/review1.png" alt="">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam dolore iusto totam maxime unde! Laudantium, quos tempore? Recusandae, ducimus consectetur?</p>
+                        <h3>Shashank Singh</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="./img/review2.jpg" alt="">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam dolore iusto totam maxime unde! Laudantium, quos tempore? Recusandae, ducimus consectetur?</p>
+                        <h3>Dr.Lores fandansis</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="./img/review3.png" alt="">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam dolore iusto totam maxime unde! Laudantium, quos tempore? Recusandae, ducimus consectetur?</p>
+                        <h3>Mr.Br Singh</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="./img/review4.jpg" alt="">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam dolore iusto totam maxime unde! Laudantium, quos tempore? Recusandae, ducimus consectetur?</p>
+                        <h3>Mr. AK Sigh</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>    
+        </div>
+    </div>
+    <!-- review section ends -->
+    <!-- blog section starts -->
+    <div class="blogs" id="blogs">
+        <h1 class="heading">Our <span>blogs</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./img/car.jpg"alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i> by user</a>
+                        <a href="#"><i class="fas fa-calendar"></i> 3rd sep 2024 </a>
+                    </div>
+                    <h3>expensive car foe sell</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem deserunt fugiat ad delectus architecto voluptatem libero non rem ullam inventore.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./img/dimond jwellery.jpg"alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i> by user</a>
+                        <a href="#"><i class="fas fa-calendar"></i> 3rd May 2024 </a>
+                    </div>
+                    <h3>demand of dimond jwellery</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem deserunt fugiat ad delectus architecto voluptatem libero non rem ullam inventore.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./img/gold.jpg"alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i> by user</a>
+                        <a href="#"><i class="fas fa-calendar"></i> 5rd March 2025 </a>
+                    </div>
+                    <h3>1kfg gold bar</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem deserunt fugiat ad delectus architecto voluptatem libero non rem ullam inventore.</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- blog section end -->
+    <!-- footer section start -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3><a href="#home">NFT Marketplace with Creator-Owned Smart Contracts.<i class="fas fa-shopping-basket"></i></a></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, laborum.</p>
+            <div class="share">
+                <a href="#" class="fas fa-facebook"></a>
+                <a href="#" class="fas fa-twitter"></a>
+                <a href="#" class="fas fa-instagram"></a>
+                <a href="#" class="fas fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box" id="contact">
+            <h3>contact info</h3>
+                <a href="#" class="links"><i class="fas fa-phone"></i>+91 9500347677</a> 
+                <a href="#" class="links"><i class="fas fa-envelope"></i>nftmarketplace@gmail.com</a>
+                <a href="#" class="links"><i class="fas fa-map-marked-alt"></i>Lucknow ,India</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+                <a href="#home" class="links"><i class="fas fa-arrow-right"></i> home</a> 
+                <a href="#features" class="links"><i class="fas fa-arrow-right"> </i>features</a>
+                <a href="#products" class="links"><i class="fas fa-arrow-right"> </i>products</a>
+                <a href="#categories" class="links"><i class="fas fa-arrow-right"> </i>categories</a>
+                <a href="#" class="links"><i class="fas fa-arrow-right"></i>Lucknow ,India</a>
+                <a href="#blogs" class="links"><i class="fas fa-arrow-right"></i>blogs</a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for letest updates</p>
+            <input type="email" placeholder="your emmail"  class="email">
+            <input type="submit" value="Subscribe" class="btn">
+            <img src="./img/payment.png" class="payment-img" alt="">
+        </div>
+    </div>
+    <div class="credit">Created by <span>Shshank Singh</span> | All rights reserved</div>
+</section>
+    <!-- footer section end -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
